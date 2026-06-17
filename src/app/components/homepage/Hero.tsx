@@ -6,9 +6,9 @@ import SkullAnimation from './SkullAnimation';
 /**
  * Scroll phases (each phase = 1 extra viewport of scroll travel):
  *  Phase 0  (0–1):   skull draws itself (scroll-driven, isFirstLoad=true)
- *  Phase 1  (1–2):   "It takes … a well-rounded person."  – all labels normal
- *  Phase 2  (2–3):   "But across India … focus only on"   – left 3 lit, right 4 grey
- *  Phase 3  (3–4):   "meanwhile these essential skills …" – right 4 lit, left 3 grey
+ *  Phase 1  (1–2):   "Every child needs these skills…"  – all labels normal
+ *  Phase 2  (2–3):   "But for millions of children…"      – left 3 lit, right 4 grey
+ *  Phase 3  (3–4):   "Over time, our children begin…"     – right 4 lit, left 3 grey
  */
 const TOTAL_PHASES = 4; // number of viewports of scroll space
 
@@ -157,18 +157,15 @@ export default function Hero() {
         {/* Main Container */}
         <div className={`relative w-full max-w-4xl mx-auto flex flex-col items-center transition-opacity duration-500 ${isReady ? 'opacity-100' : 'opacity-0'}`}>
 
-          {/* Phase 1 top text – "It takes" */}
+          {/* Phase 1 top text – hidden, new copy lives in the bottom slot */}
           <div
             className="text-center mb-2 transition-all duration-700 ease-out"
             style={{
-              opacity: phase1In && phase < 2 ? 1 : 0,
-              transform: phase1In && phase < 2 ? 'translateY(0)' : 'translateY(-20px)',
+              opacity: 0,
               pointerEvents: 'none',
               minHeight: '2.5rem',
             }}
-          >
-            <p className="text-2xl md:text-3xl italic text-black font-serif">It takes</p>
-          </div>
+          />
 
           {/* Central Image */}
           <div className="relative w-[300px] h-[300px] md:w-[460px] md:h-[460px]">
@@ -183,7 +180,7 @@ export default function Hero() {
           {/* Text phases – all stacked absolutely inside a fixed-height slot so they don't push layout */}
           <div className="relative mt-3 w-full text-center" style={{ minHeight: '7rem' }}>
 
-            {/* Phase 1 – "to shape a well-rounded person." */}
+            {/* Phase 1 – "Every child needs these skills…" */}
             <div
               className="absolute inset-x-0 top-0 transition-all duration-700 ease-out"
               style={{
@@ -192,13 +189,15 @@ export default function Hero() {
                 pointerEvents: 'none',
               }}
             >
-              <p className="text-2xl md:text-3xl italic text-black font-serif">to shape</p>
+              <p className="text-2xl md:text-3xl italic text-black font-serif">
+                Every child needs these skills to flourish at school
+              </p>
               <p className="text-3xl md:text-4xl font-bold text-black mt-1 font-serif">
-                a well-rounded person.
+                and be future-ready.
               </p>
             </div>
 
-            {/* Phase 2 – "But across India…" */}
+            {/* Phase 2 – "But for millions of children…" */}
             <div
               className="absolute inset-x-0 top-0 transition-all duration-700 ease-out"
               style={{
@@ -208,14 +207,17 @@ export default function Hero() {
               }}
             >
               <p className="text-xl md:text-2xl italic text-black font-serif">
-                But across India, classrooms
+                But for millions of children, school is still a place of
               </p>
               <p className="text-xl md:text-2xl italic text-black font-serif">
-                are built to focus only on
+                silence, fear, and rote learning —
+              </p>
+              <p className="text-xl md:text-2xl italic text-black font-serif">
+                not expression, safety, and possibility.
               </p>
             </div>
 
-            {/* Phase 3 – "meanwhile these essential skills get ignored." */}
+            {/* Phase 3 – "Over time, our children begin to believe…" */}
             <div
               className="absolute inset-x-0 top-0 transition-all duration-700 ease-out"
               style={{
@@ -224,15 +226,12 @@ export default function Hero() {
                 pointerEvents: 'none',
               }}
             >
-              <p className="text-2xl md:text-3xl italic text-black font-serif">meanwhile these</p>
+              <p className="text-2xl md:text-3xl italic text-black font-serif">Over time, our children begin to believe that</p>
               <p className="text-3xl md:text-4xl font-bold text-black mt-1 font-serif relative inline-block">
-                essential skills
+                success is not meant for them.
                 <svg className="absolute bottom-[-10px] left-0 w-full h-[15px]" viewBox="0 0 200 9" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
                   <path d="M2.00025 6.99997C48.3396 2.66666 142.102 -3.49991 198 4.49998" stroke="#fb747b" strokeWidth="3" strokeLinecap="round" strokeDasharray="4 2" style={{filter: 'blur(0.5px)'}} />
                 </svg>
-              </p>
-              <p className="text-2xl md:text-3xl italic text-black font-serif inline ml-2">
-                get ignored.
               </p>
             </div>
 
