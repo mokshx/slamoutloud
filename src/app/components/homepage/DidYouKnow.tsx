@@ -30,10 +30,10 @@ export default function DidYouKnow() {
             className="space-y-4"
           >
             <p className="text-base leading-relaxed">
-              Children instinctively use art to build and practice life skills. Neuroscience has confirmed, creative and cognitive processes are linked.
+              The capacities children need most are built when they create, perform, question, and discover.
             </p>
             <p className="text-base leading-relaxed">
-              Yet, art education is nationally deprioritized, suffering from minimal teacher training and lack of budget.
+              Global research shows that the visual and performing arts are among the most natural ways to nurture these skills. Yet, in our schools, the arts remain deeply deprioritized.
             </p>
           </motion.div>
 
@@ -88,10 +88,10 @@ export default function DidYouKnow() {
             className="space-y-4"
           >
             <p className="text-base leading-relaxed">
-              Children instinctively use art to build and practice life skills. Neuroscience has confirmed, creative and cognitive processes are linked.
+              The capacities children need most are built when they create, perform, question, and discover.
             </p>
             <p className="text-base leading-relaxed">
-              Yet, art education is nationally deprioritized, suffering from minimal teacher training and lack of budget.
+              Global research shows that the visual and performing arts are among the most natural ways to nurture these skills. Yet, in our schools, the arts remain deeply deprioritized.
             </p>
           </motion.div>
 
@@ -151,10 +151,10 @@ export default function DidYouKnow() {
             className="space-y-4"
           >
             <p className="text-sm leading-relaxed">
-              Children instinctively use art to build and practice life skills. Neuroscience has confirmed, creative and cognitive processes are linked.
+              The capacities children need most are built when they create, perform, question, and discover.
             </p>
             <p className="text-sm leading-relaxed">
-              Yet, art education is nationally deprioritized, suffering from minimal teacher training and lack of budget.
+              Global research shows that the visual and performing arts are among the most natural ways to nurture these skills. Yet, in our schools, the arts remain deeply deprioritized.
             </p>
           </motion.div>
 
