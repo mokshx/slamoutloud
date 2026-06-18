@@ -6,57 +6,66 @@ import Image from "next/image";
 const faqData = [
   {
     id: 1,
-    question: "What is SEL?",
+    question: "What we build",
     bgColor: "bg-[#FF7A7A]", // Coral
     image: "/faq1.png",
     content: (
       <div className="flex flex-col gap-6 text-black mt-4 lg:mt-0">
-        <p className="text-base md:text-xl font-medium text-black">
-          In simple terms, SEL is the education of life skills such as
+        <p className="text-base md:text-xl font-medium leading-relaxed text-black">
+          Children, especially those from adversity, need the readiness to
+          navigate uncertainty, recover from setbacks, build relationships, make
+          decisions, and imagine larger futures for themselves.
         </p>
-        <div className="border-l-[3px] border-black pl-5 flex flex-col gap-2 font-bold text-base md:text-xl text-black">
-          <p>Curiosity</p>
-          <p>Emotional awareness</p>
-          <p>Analytical thinking</p>
+        <p className="text-base md:text-xl font-medium text-black">
+          At Slam Out Loud, we focus on strengthening five interconnected
+          foundations:
+        </p>
+        <div className="flex flex-col gap-3 text-base md:text-xl text-black">
+          <p><span className="font-bold">Identity:</span> &ldquo;I believe in my own ability.&rdquo;</p>
+          <p><span className="font-bold">Aspiration:</span> &ldquo;I belong in bigger rooms. My circumstances don&rsquo;t define my ceiling.&rdquo;</p>
+          <p><span className="font-bold">Self-efficacy:</span> &ldquo;I can influence what happens to me.&rdquo;</p>
+          <p><span className="font-bold">Resilience:</span> &ldquo;When life gets hard, I know how to come back.&rdquo;</p>
         </div>
-        <p className="text-base md:text-xl font-medium text-black">
-          alongside academic subjects.
-        </p>
       </div>
     ),
   },
   {
     id: 2,
-    question: "Why we teach art based SEL?",
+    question: "How the arts make it possible",
     bgColor: "bg-[#45A99E]", // Teal
     image: "/faq2.png",
     content: (
       <div className="flex flex-col gap-6 text-black mt-4 lg:mt-0">
         <p className="text-base md:text-xl font-medium leading-relaxed text-black">
-          Engaging with poetry, theater, storytelling, music,<br className="hidden md:block"/> and visual arts strengthens abilities such as
+          In SOL classrooms, children write, perform, draw, move, reflect and
+          create together. It allows them to find spaces within the education
+          system where they:
         </p>
-        <div className="border-l-[3px] border-black pl-5 flex flex-col gap-2 font-bold text-base md:text-xl text-black">
-          <p>Making sense of complexity</p>
-          <p>Dream beyond what exists</p>
-          <p>Understand their emotions</p>
-          <p>Think critically</p>
-          <p>Take initiative</p>
+        <div className="flex flex-col gap-3 text-base md:text-xl text-black">
+          <p className="font-bold">Make sense of complexity</p>
+          <p className="font-bold">Imagine new realities</p>
+          <p className="font-bold">Understand their emotions</p>
+          <p className="font-bold">Think critically, and</p>
+          <p className="font-bold">Take initiative</p>
         </div>
       </div>
     ),
   },
   {
     id: 3,
-    question: "Who do we work with to enable this?",
+    question: "Our model: Learn Deeply, Scale Systemically",
     bgColor: "bg-[#F3BD69]", // Yellow
     image: "/faq3.png",
     content: (
       <div className="flex flex-col gap-6 text-black mt-4 lg:mt-0">
         <p className="text-base md:text-xl font-medium leading-relaxed text-black">
-          To co-create learning environments rooted in care,<br className="hidden md:block"/> creativity, context and make part of how children<br className="hidden md:block"/> learn and grow within their own communities.
+          We learn deeply before we scale widely. Working directly with children
+          helps us build practices that are joyful, contextual, and effective.
+          Partnering with governments ensures these practices become part of the
+          system, not just a one-time intervention.
         </p>
-        <p className="text-base md:text-xl font-bold leading-relaxed text-black">
-          We train educators, engage parents, and<br className="hidden md:block"/> build local ownership.
+        <p className="text-base md:text-xl font-medium leading-relaxed text-black">
+          Here&rsquo;s what these two programs look like:
         </p>
       </div>
     ),
