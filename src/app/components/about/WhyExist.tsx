@@ -5,15 +5,18 @@ export default function WhyExist() {
     <section className="bg-[#ff7b7b] py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto text-black">
         <h2 className="text-2xl font-bold mb-12">Why we exist</h2>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
-          {/* Column 1 */}
+          {/* Column 1 — Origin story */}
           <div className="flex flex-col gap-6">
             <p className="text-lg leading-relaxed">
-              In 2014, our co-founder Jigyasa watched children move through school in silence, rarely given real space to feel, imagine, or create.
+              In 2014, our co-founder Jigyasa watched children move through
+              school in silence, rarely given real space to feel, imagine, or
+              create.
             </p>
             <p className="text-lg leading-relaxed">
-              A spoken-word poetry workshop in Kashmir changed everything. What poured out was undeniable.
+              A spoken-word poetry workshop in Kashmir changed everything. What
+              poured out was undeniable.
             </p>
             <div className="relative w-full aspect-[4/3] mt-4 rounded-lg overflow-hidden shadow-lg">
               <Image
@@ -25,62 +28,96 @@ export default function WhyExist() {
             </div>
           </div>
 
-          {/* Column 2 */}
+          {/* Column 2 — Our Beginnings */}
+          <div className="flex flex-col gap-6">
+            <h3 className="text-xl font-bold">Our Beginnings</h3>
+            <p className="text-lg leading-relaxed">
+              Slam Out Loud began in classrooms.
+            </p>
+            <p className="text-lg leading-relaxed">
+              Our co-founders were full-time teachers in low-income communities,
+              where children came to school every day carrying questions, dreams,
+              fears, and stories that rarely found space inside the classroom.
+            </p>
+            <p className="text-lg leading-relaxed">
+              Alongside teaching, we began bringing the arts into our classroom
+              and taking spoken-word poetry workshops to children across India.
+              The 77th workshop, in Kashmir, changed everything.
+            </p>
+            <p className="text-lg leading-relaxed">
+              In a classroom shaped by conflict, children were invited to choose
+              an emotion and write. We expected joy, friendship, and small
+              memories of childhood. Instead, children wrote about hate, sadness,
+              confusion, guilt, fear, and hope.
+            </p>
+            <p className="text-lg leading-relaxed">
+              This day solidified our belief that, for students, spaces for
+              creative expression were necessary, not a nice-to-have, and Slam
+              Out Loud became an organization.
+            </p>
+          </div>
+
+          {/* Column 3 — What We Discovered */}
           <div className="flex flex-col gap-6">
             <h3 className="text-xl font-bold">What We Discovered</h3>
             <p className="text-lg leading-relaxed">
-              Expression was missing because we'd forgotten it was foundational to learning, to dignity, and to becoming.
+              We discovered that expression is not ornamental. In fact, it is
+              foundational to learning, identity, and becoming.
             </p>
             <p className="text-lg leading-relaxed">
-              Through poetry, theatre, and storytelling, we found that when children are invited to speak their truth in safe spaces
+              We had seen how often children were asked to leave parts of
+              themselves at the school gate: their language, culture, identity,
+              emotions, and imagination. School expected them to listen,
+              remember, and answer correctly, but rarely invited them to create,
+              question, or be fully seen.
             </p>
-            <ul className="flex flex-col gap-4 mt-2">
-              <li className="flex items-start gap-3">
-                <span className="mt-2 w-2 h-2 rounded-full bg-black shrink-0"></span>
-                <span className="text-lg">They find the courage to own their narratives.</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-2 w-2 h-2 rounded-full bg-black shrink-0"></span>
-                <span className="text-lg">They move from passive observers to active creators.</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-2 w-2 h-2 rounded-full bg-black shrink-0"></span>
-                <span className="text-lg">They build empathy and community.</span>
-              </li>
-            </ul>
+            <p className="text-lg leading-relaxed">
+              Every time a child created something original, something shifted.
+            </p>
+            <p className="text-lg leading-relaxed">
+              We realised that when children are given structured spaces to
+              create, perform, question and discover, they begin to see
+              themselves differently. They build the belief that their
+              circumstances are not their ceiling. They begin to say: &ldquo;My
+              voice matters, my story matters, and I belong in bigger
+              rooms.&rdquo;
+            </p>
           </div>
+        </div>
 
-          {/* Column 3 */}
-          <div className="flex flex-col gap-6">
-            <h3 className="text-xl font-bold">Our Commitment</h3>
-            <p className="text-lg leading-relaxed">
-              Guided by Love. We learn directly from students and teachers to build strong ecosystems that expand, ensuring our impact is rooted in reality.
-            </p>
-            <p className="text-lg leading-relaxed">
-              By strengthening public education and teacher ecosystems, we are evolving arts-based SEL into a scalable model, combining "high-touch" inspiration with "high-tech" reach.
-            </p>
-            <p className="text-lg font-bold leading-relaxed mt-4">
-              Because every child deserves to be heard. And that work begins now.
-            </p>
-            
-            <button className="flex items-center gap-3 bg-[#ff9c95] hover:bg-white/20 transition-colors px-6 py-4 rounded-full w-fit mt-4 font-medium group">
-              <svg 
-                width="20" 
-                height="20" 
-                viewBox="0 0 24 24" 
-                fill="none" 
-                stroke="currentColor" 
-                strokeWidth="2.5" 
-                strokeLinecap="round" 
-                strokeLinejoin="round"
-                className="group-hover:translate-y-0.5 transition-transform"
-              >
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                <polyline points="7 10 12 15 17 10" />
-                <line x1="12" x2="12" y1="15" y2="3" />
-              </svg>
-              Download our 2024 annual report
-            </button>
+        {/* Our Commitment — full-width section below the columns */}
+        <div className="mt-16 pt-12 border-t border-black/20">
+          <h3 className="text-xl font-bold mb-8">Our Commitment</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
+            {/* Left — pull quote */}
+            <div className="flex flex-col gap-6">
+              <p className="text-2xl font-bold leading-snug">
+                We believe every child deserves the capacities to flourish, not
+                just the chance to complete school.
+              </p>
+              <p className="text-lg leading-relaxed">
+                We learn directly from students and teachers, then partner with
+                state governments to embed what works into curriculum, training,
+                and measurement.
+              </p>
+            </div>
+            {/* Right — supporting paragraphs */}
+            <div className="flex flex-col gap-6">
+              <p className="text-lg leading-relaxed">
+                By building this foundation at ages 7–14, when identity is still
+                forming, we are engineering the conditions for a different kind
+                of life.
+              </p>
+              <p className="text-lg leading-relaxed">
+                Our commitment is to bring this kind of learning to children who
+                are too often denied it.
+              </p>
+              <p className="text-lg leading-relaxed">
+                We believe in creating a world for ALL of our children, in which,
+                as Sir Ken Robinson said, &ldquo;Creativity is as important as
+                literacy.&rdquo;
+              </p>
+            </div>
           </div>
         </div>
       </div>

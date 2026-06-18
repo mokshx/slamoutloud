@@ -36,11 +36,14 @@ export default function Programmes() {
             </div>
 
             <div className="relative z-10 text-black flex flex-col h-full pl-12 md:pl-16 lg:pl-0">
-              <h3 className="text-3xl md:text-[42px] font-bold mb-6 leading-tight">
+              <h3 className="text-xl md:text-[26px] font-bold mb-4 leading-tight">
                 Art For All <br className="hidden md:block" /> (AFA)
               </h3>
-              <p className="text-[15px] md:text-[16px] leading-relaxed mb-8 font-medium">
-                Through state partnerships in Punjab, Maharashtra, and Bihar, AFA brings SEL into government schools through contextual curriculum rooted in local culture and expressions shaped by everyday realities.
+              <p className="text-[10px] md:text-[11px] leading-relaxed mb-3 font-medium">
+                Through state partnerships in <strong>Punjab, Maharashtra and Bihar</strong>, Arts for All works with public education systems to make the art class a regular part of a child&rsquo;s school week. We partner with departments to strengthen policy, curriculum, teacher training and system resources, so arts learning is not optional or occasional, but delivered by government school teachers at scale.
+              </p>
+              <p className="text-[10px] md:text-[11px] leading-relaxed mb-6 font-medium">
+                Our curriculum is deeply contextual, bringing the state&rsquo;s culture, stories and identities into the classroom through the arts. In Punjab, we are co-creating the state&rsquo;s new art textbook, the first major update in over 40 years.
               </p>
               <div className="mt-auto">
                 <a href="/afa" className="inline-flex items-center text-[15px] font-medium hover:underline transition-all">
@@ -69,11 +72,14 @@ export default function Programmes() {
             </div>
 
             <div className="relative z-10 text-black flex flex-col h-full pr-8 md:pr-0">
-              <h3 className="text-3xl md:text-[42px] font-bold mb-6 leading-tight">
+              <h3 className="text-xl md:text-[28px] font-bold mb-4 leading-tight">
                 The Jijivisha <br className="hidden md:block" /> Fellowship
               </h3>
-              <p className="text-[15px] md:text-[16px] leading-relaxed mb-8 font-medium">
-                We place trained fellows inside classrooms and community spaces where art periods are intentionally designed to build core social-emotional learning skills, currently across Delhi, Bengaluru, Mumbai, and Pune.
+              <p className="text-[11px] md:text-[12px] leading-relaxed mb-3 font-medium">
+                Across Delhi, Bengaluru, Mumbai, and Pune, the Jijivisha Fellowship places trained art educators inside schools and communities. Fellows work closely with children, teachers, parents, and local contexts to design powerful art experiences that build identity, aspiration, resilience, and agency.
+              </p>
+              <p className="text-[11px] md:text-[12px] leading-relaxed mb-6 font-medium">
+                These classrooms and community spaces serve as deep learning labs, helping us understand what children need and what high-quality arts-based learning looks like in practice.
               </p>
               <div className="mt-auto">
                 <a href="/jijivisha" className="inline-flex items-center text-[15px] font-medium hover:underline transition-all">
