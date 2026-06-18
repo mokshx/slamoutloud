@@ -82,7 +82,7 @@ export default function OurImpact() {
                 Our Impact
               </h3>
               <p className="text-2xl md:text-[32px] md:leading-[1.2] text-gray-900 font-medium font-sans">
-                Data from <Counter value={4000} from={3950} suffix="+" duration={4} /> children across 4 cities (2024)
+                Directly enabling students with SEL skills in government and low-income private schools across India
               </p>
             </div>
 
@@ -91,10 +91,10 @@ export default function OurImpact() {
               {/* Stat Box 1 */}
               <div className="flex-1 flex flex-col gap-2">
                 <h2 className="text-5xl md:text-6xl font-extrabold text-black font-sans tracking-tight">
-                  <Counter value={700000} from={699950} duration={4} />
+                  <Counter value={700000} from={699950} suffix="+" duration={4} />
                 </h2>
                 <p className="text-sm md:text-base text-gray-800 font-sans leading-relaxed">
-                  Children directly enabled with SEL skills across 4 states and New Delhi, India.
+                  Students directly enabled with SEL skills across government and low-income private schools in India
                 </p>
               </div>
 
@@ -104,11 +104,80 @@ export default function OurImpact() {
 
               {/* Stat Box 2 */}
               <div className="flex-1 flex flex-col gap-2">
-                <h2 className="text-4xl md:text-3.5xl font-extrabold text-black font-sans tracking-tight">
-                  <Counter value={20000000} from={19999950} prefix="> " duration={4} />
+                <h2 className="text-4xl md:text-5xl font-extrabold text-black font-sans tracking-tight">
+                  5
                 </h2>
                 <p className="text-sm md:text-base text-gray-800 font-sans leading-relaxed">
-                  Children reached through digital resources.
+                  States across India
+                </p>
+              </div>
+
+              {/* Vertical Divider (Desktop) / Horizontal Divider (Mobile) */}
+              <div className="hidden sm:block w-[2px] h-32 bg-black shrink-0 my-auto rounded-full"></div>
+              <div className="block sm:hidden w-full h-[2px] bg-black/10 shrink-0 rounded-full"></div>
+
+              {/* Stat Box 3 */}
+              <div className="flex-1 flex flex-col gap-2">
+                <h2 className="text-4xl md:text-5xl font-extrabold text-black font-sans tracking-tight">
+                  ~<Counter value={20000000} from={19999950} duration={4} />
+                </h2>
+                <p className="text-sm md:text-base text-gray-800 font-sans leading-relaxed">
+                  Children reached through digital resources
+                </p>
+              </div>
+            </div>
+
+            {/* Additional Metrics */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4 border-t border-black/10">
+              {/* Metric 1 */}
+              <div className="flex flex-col gap-1">
+                <h2 className="text-4xl font-extrabold text-black font-sans tracking-tight">
+                  38%
+                </h2>
+                <p className="text-sm text-gray-800 font-sans leading-relaxed">
+                  Average growth in Future Readiness Skills
+                </p>
+                <p className="text-xs text-gray-500 font-sans">
+                  Measured via competency-based assessments, not self-report (*24-25 TJF program)
+                </p>
+              </div>
+
+              {/* Metric 2 */}
+              <div className="flex flex-col gap-1">
+                <h2 className="text-4xl font-extrabold text-black font-sans tracking-tight">
+                  90.5
+                </h2>
+                <p className="text-sm text-gray-800 font-sans leading-relaxed">
+                  Average Student NPS: children rating their SOL experience
+                </p>
+                <p className="text-xs text-gray-500 font-sans">
+                  (*24-25 TJF program)
+                </p>
+              </div>
+
+              {/* Metric 3 */}
+              <div className="flex flex-col gap-1">
+                <h2 className="text-4xl font-extrabold text-black font-sans tracking-tight">
+                  80%
+                </h2>
+                <p className="text-sm text-gray-800 font-sans leading-relaxed">
+                  of teachers report a reduction in classroom disruption due to behaviour issues
+                </p>
+                <p className="text-xs text-gray-500 font-sans">
+                  (*24-25 Arts for All Abhivyakti program)
+                </p>
+              </div>
+
+              {/* Metric 4 */}
+              <div className="flex flex-col gap-1">
+                <h2 className="text-4xl font-extrabold text-black font-sans tracking-tight">
+                  81%
+                </h2>
+                <p className="text-sm text-gray-800 font-sans leading-relaxed">
+                  of teachers report an increase in instructional time within classrooms
+                </p>
+                <p className="text-xs text-gray-500 font-sans">
+                  (*24-25 Arts for All Abhivyakti program)
                 </p>
               </div>
             </div>
