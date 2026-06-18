@@ -5,7 +5,7 @@ import StackedBarChart from './StackedBarChart';
 export default function OurImpact() {
   const selBars = [
     {
-      label: 'Curiosity',
+      label: 'Agency',
       segments: [
         { label: '25% Growth', value: 26.64, color: '#ff8282' },
         { label: '50% Growth', value: 8.32, color: '#f8b661' },
@@ -13,7 +13,7 @@ export default function OurImpact() {
       ],
     },
     {
-      label: 'Analytical Thinking',
+      label: 'Curiosity',
       segments: [
         { label: '25% Growth', value: 15.05, color: '#ff8282' },
         { label: '50% Growth', value: 1.18, color: '#f8b661' },
@@ -188,18 +188,18 @@ export default function OurImpact() {
         <div className="flex flex-col md:flex-row items-start justify-center gap-12 md:gap-16 w-full">
           {/* Graph 1 */}
           <div className="w-full md:w-1/2">
-            <StackedBarChart 
-              title="Growth in SEL competencies" 
-              bars={selBars} 
+            <StackedBarChart
+              title="Growth in SEL competencies"
+              bars={selBars}
               yMax={40}
             />
           </div>
 
           {/* Graph 2 */}
           <div className="w-full md:w-1/2">
-            <StackedBarChart 
-              title="Growth in climate competencies" 
-              bars={climateBars} 
+            <StackedBarChart
+              title="Growth in climate competencies"
+              bars={climateBars}
               yMax={50}
             />
           </div>

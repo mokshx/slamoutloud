@@ -12,7 +12,7 @@ const HEAD_PATH =
 /*
   Labeled dots – fractions are along the REVERSED path.
   Left side = academic skills (Arithmetic, Writing, Reading)
-  Right side = essential/soft skills (Curiosity, Imagination, Emotional Awareness, Agency)
+  Right side = essential/soft skills (Curiosity, Imagination, Emotional intelligence, Agency)
 */
 const LABELS = [
   { fraction: 0.09, label: "Arithmetic",         side: "left",  offsetX: -16, offsetY:  22, color: "#9a9a9a", group: "left"  },
@@ -20,7 +20,7 @@ const LABELS = [
   { fraction: 0.50, label: "Reading",             side: "left",  offsetX: -16, offsetY: -14, color: "#9a9a9a", group: "left"  },
   { fraction: 0.61, label: "Curiosity",           side: "right", offsetX:  16, offsetY: -16, color: "#4a9a8a", group: "right" },
   { fraction: 0.75, label: "Imagination",         side: "right", offsetX:  16, offsetY:   8, color: "#4a9a8a", group: "right" },
-  { fraction: 0.86, label: "Emotional Awareness", side: "right", offsetX:  16, offsetY:   8, color: "#4a9a8a", group: "right" },
+  { fraction: 0.86, label: "Emotional intelligence", side: "right", offsetX:  16, offsetY:   8, color: "#4a9a8a", group: "right" },
   { fraction: 0.97, label: "Agency",              side: "right", offsetX:  16, offsetY:  22, color: "#4a9a8a", group: "right" },
 ];
 
