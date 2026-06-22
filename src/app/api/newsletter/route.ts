@@ -19,7 +19,7 @@ export async function POST(request: Request) {
 
     const mailOptions = {
       from: process.env.GOOGLE_MAIL,
-      to: "chadhamoksh@gmail.com",
+      to: process.env.GOOGLE_MAIL,
       subject: "New Newsletter Subscription",
       text: `New subscription from: ${email}`,
       html: `
@@ -35,9 +35,15 @@ export async function POST(request: Request) {
 
     await transporter.sendMail(mailOptions);
 
-    return NextResponse.json({ message: "Subscription successful" }, { status: 200 });
+    return NextResponse.json(
+      { message: "Subscription successful" },
+      { status: 200 },
+    );
   } catch (error) {
     console.error("Error sending email:", error);
-    return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
+    return NextResponse.json(
+      { error: "Internal Server Error" },
+      { status: 500 },
+    );
   }
 }

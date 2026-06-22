@@ -18,7 +18,7 @@ export async function POST(req: Request) {
     // Email content
     const mailOptions = {
       from: process.env.GOOGLE_MAIL,
-      to: "chadhamoksh@gmail.com",
+      to: process.env.GOOGLE_MAIL,
       subject: `New Partner Form Submission from ${name}`,
       text: `
         New Partner Form Submission:
@@ -48,12 +48,18 @@ export async function POST(req: Request) {
     // Send email
     await transporter.sendMail(mailOptions);
 
-    return NextResponse.json({ message: "Email sent successfully" }, { status: 200 });
+    return NextResponse.json(
+      { message: "Email sent successfully" },
+      { status: 200 },
+    );
   } catch (error) {
     console.error("Error sending email:", error);
     return NextResponse.json(
-      { message: "Failed to send email", error: error instanceof Error ? error.message : "Unknown error" },
-      { status: 500 }
+      {
+        message: "Failed to send email",
+        error: error instanceof Error ? error.message : "Unknown error",
+      },
+      { status: 500 },
     );
   }
 }
