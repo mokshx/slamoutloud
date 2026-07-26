@@ -1,7 +1,6 @@
 import dynamic from "next/dynamic";
 import Hero from "./components/homepage/Hero";
 import DidYouKnow from "./components/homepage/DidYouKnow";
-import Solmates from "./components/homepage/Solmates";
 
 const WeareSOL = dynamic(() => import("./components/homepage/WeareSOL"));
 const VisionMission = dynamic(
@@ -30,11 +29,10 @@ export default function Home() {
       <DidYouKnow />
       <WeareSOL />
       <VisionMission />
-      <FAQs />
       <OurImpact />
-      <ChildrensHighlight />
+      <FAQs />
       <Programmes />
-      <Solmates />
+      <ChildrensHighlight />
       <DonateAndJoin />
       <PartnersAndFeature />
       <Media />

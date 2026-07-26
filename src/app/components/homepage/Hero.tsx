@@ -210,10 +210,7 @@ export default function Hero() {
                 But for millions of children, school is still a place of
               </p>
               <p className="text-xl md:text-2xl italic text-black font-serif">
-                silence, fear, and rote learning —
-              </p>
-              <p className="text-xl md:text-2xl italic text-black font-serif">
-                not expression, safety, and possibility.
+                silence, fear, and rote learning.
               </p>
             </div>
 

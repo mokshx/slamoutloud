@@ -43,9 +43,9 @@ export default function Footer() {
           <div className="flex flex-col gap-6">
             <h3 className="font-bold text-xl text-black">Learn more</h3>
             <ul className="flex flex-col gap-4 text-black/70">
-              <li><Link href="#" className="hover:text-black transition-colors text-base md:text-lg font-medium">Jijivisha Fellowship</Link></li>
-              <li><Link href="#" className="hover:text-black transition-colors text-base md:text-lg font-medium">Arts For All</Link></li>
-              <li><Link href="#" className="hover:text-black transition-colors text-base md:text-lg font-medium">Learning Resources</Link></li>
+              <li><Link href="/jijivisha" className="hover:text-black transition-colors text-base md:text-lg font-medium">The Jijivisha Fellowship</Link></li>
+              <li><Link href="/afa" className="hover:text-black transition-colors text-base md:text-lg font-medium">Arts For All</Link></li>
+              <li><Link href="/work-with-us" className="hover:text-black transition-colors text-base md:text-lg font-medium">Learning Resources</Link></li>
             </ul>
           </div>
 
@@ -63,11 +63,10 @@ export default function Footer() {
           <div className="flex flex-col gap-6">
             <h3 className="font-bold text-xl text-black">Financials</h3>
             <ul className="flex flex-col gap-4 text-black/70">
-              <li><a href="https://drive.google.com/file/d/1lrA42yg7nyuaDNEn5Tv1z6WWRAQH6P0l/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">FCRA Registration</a></li>
-              <li><a href="https://drive.google.com/file/d/1DmOztM0SBqRMYS2U9NT8LvMQGQ6YqHaA/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">80G Certificate</a></li>
-              <li><a href="https://drive.google.com/file/d/19Cydaq0VYnROy5T1XiOd8vTYn032zzOY/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">12A Registration</a></li>
-              <li><a href="https://drive.google.com/file/d/1WFtz79QXsjJtXg6uhoz8UUhooZ3Qjb6V/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">Audit Report 2018-19</a></li>
-              <li><a href="https://drive.google.com/file/d/1-GXct8qf6LxyMbLR0psguyP35TnvR5I7/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">Audit Report 2019-20</a></li>
+              <li><a href="https://drive.google.com/file/d/1xDd1Pvp-rlz_QWEUJLyHmdd58Qyid_Rf/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">FCRA Registration</a></li>
+              <li><a href="https://drive.google.com/file/d/1JcSSTNEnCF6rh5eaVGYPsnzgXNvCqxye/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">80G Certificate</a></li>
+              <li><a href="https://drive.google.com/file/d/1bZraOAcEniqkWgfeajAf_eKehtdWX1NO/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">12A Registration</a></li>
+              <li><a href="https://drive.google.com/file/d/1C0-rQEGPNa97V4GiufIEcXX_nByvPE95/view" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">Annual Financial Statement FY 2024-25</a></li>
             </ul>
           </div>
         </div>

@@ -196,25 +196,25 @@ const highlights = [
     image: "/ch_numbers.png",
     videoUrl: "https://pub-aee81a00e0fe433086dbd4d5f0c050e8.r2.dev/Numbers_Supriya.webm",
     name: "Supriya",
-    description: "worn down by comparison, Supriya describes her creativity and joy fading under the weight of expectations."
+    description: "Worn down by comparison, Supriya describes her creativity and joy fading under the weight of expectations. Supriya was part of Slam Out Loud's programs from Grade 6. She went on to graduate from Ashoka University on a full scholarship, studying liberal arts and creative writing. She is now working as a creative writer at an education company."
   },
   {
     image: "/ch_abbas_tedx.png",
     videoUrl: "https://pub-aee81a00e0fe433086dbd4d5f0c050e8.r2.dev/Abbas_Tedx.webm",
     name: "Abbas",
-    description: "questions the cost of hiding one's dreams and fatigue within the relentless pace of a judgmental society."
+    description: "Questions the cost of hiding one's dreams and fatigue within the relentless pace of a judgmental society. Abbas joined Slam Out Loud when he was in Grade 8. He went on to study liberal arts at Azim Premji University on a full scholarship, and has now returned to Slam Out Loud as a teaching fellow."
   },
   {
     image: "/ch_mother_tongue.png",
     videoUrl: "https://pub-aee81a00e0fe433086dbd4d5f0c050e8.r2.dev/Mother_Tongue_Muskan.webm",
     name: "Muskan",
-    description: "questions identity and dignity through the lens of language, privilege, and a mother's interrupted education."
+    description: "Questions identity and dignity through the lens of language, privilege, and a mother's interrupted education. Muskan was part of Slam Out Loud's programs from Grade 6, completed liberal arts from Ashoka University on a full scholarship and is now working in marketing."
   },
   {
     image: "/ch_molbhav.png",
     videoUrl: "https://pub-aee81a00e0fe433086dbd4d5f0c050e8.r2.dev/Mol_Bhav_Chanda_Jyoti.webm",
     name: "Chanda and Jyoti",
-    description: "challenge the commodification of feelings, where even love and tears are weighed and priced."
+    description: "Challenge the commodification of feelings, where even love and tears are weighed and priced. Chanda and Jyoti have both finished college and are now building careers in education."
   }
 ];
 
@@ -224,12 +224,13 @@ export default function ChildrensHighlight() {
       <div className="w-full max-w-7xl flex flex-col gap-12 md:gap-16">
         
         {/* Header Section */}
-        <div className="text-center flex flex-col items-center gap-2">
-          <h2 className="text-xl md:text-2xl text-black font-sans">
-            <span className="italic">What numbers capture, is revealed in</span>
-            <br />
-            <span className="font-bold">children’s words and courage.</span>
+        <div className="text-center flex flex-col items-center gap-3 max-w-2xl mx-auto">
+          <h2 className="text-xl md:text-2xl font-bold text-black font-sans">
+            The deepest impact of our work is often heard before it is measured.
           </h2>
+          <p className="text-base md:text-lg italic text-black font-sans">
+            Across our programs, we identify children with exceptional voice and artistic interest, bring mentors into their journeys, and open platforms where their stories can be heard.
+          </p>
         </div>
 
         {/* Grid Section */}

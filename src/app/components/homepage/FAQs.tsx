@@ -38,7 +38,7 @@ const faqData = [
       <div className="flex flex-col gap-6 text-black mt-4 lg:mt-0">
         <p className="text-base md:text-xl font-medium leading-relaxed text-black">
           In SOL classrooms, children write, perform, draw, move, reflect and
-          create together. It allows them to find spaces within the education
+          create together. Social-Emotional Learning (SEL) allows them to find spaces within the education
           system where they:
         </p>
         <div className="flex flex-col gap-3 text-base md:text-xl text-black">

@@ -23,13 +23,11 @@ export default function DonateAndJoin() {
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 w-full mt-2">
-          <a 
-            href="https://docs.google.com/forms/d/e/1FAIpQLSejGGVHBq1VYJ8qNSFFp1EPdWt3XdKhEdzB2qbGI1d44WsXwA/viewform"
-            target="_blank"
-            rel="noopener noreferrer"
+          <a
+            href="/work-with-us"
             className="w-full sm:w-auto min-w-[200px] h-[52px] flex items-center justify-center px-6 rounded-lg border-2 border-black text-black font-semibold text-base hover:bg-black/5 transition-colors text-center leading-tight"
           >
-            Join the fellowship
+            Join our team
           </a>
           <a 
             href="https://milaap.org/fundraisers/slam-out-loud"

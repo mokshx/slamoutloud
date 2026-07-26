@@ -119,7 +119,7 @@ export default function OurImpact() {
               {/* Stat Box 3 */}
               <div className="flex-1 flex flex-col gap-2">
                 <h2 className="text-4xl md:text-5xl font-extrabold text-black font-sans tracking-tight">
-                  ~<Counter value={20000000} from={19999950} duration={4} />
+                  <Counter value={20} from={1} suffix="M" duration={2.5} />
                 </h2>
                 <p className="text-sm md:text-base text-gray-800 font-sans leading-relaxed">
                   Children reached through digital resources

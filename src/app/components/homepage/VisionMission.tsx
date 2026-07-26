@@ -35,7 +35,7 @@ export default function VisionMission() {
               What we do
             </p>
             <h2 className="text-[12px] lg:text-[16px] leading-[1.4] max-w-[420px] text-[#1a1a1a]">
-              We ensure children in government schools get access to the arts and transform the art class into a space for growth and learning. Through poetry, theatre, storytelling, movement, and visual art, children find their voice and see themselves as capable.
+              We ensure children in government schools get access to the arts and transform the art class into a space for growth and learning. Through poetry, theatre, storytelling, movement, and visual art, children develop future facing skills.
             </h2>
           </motion.div>
 
@@ -81,7 +81,7 @@ export default function VisionMission() {
                     What we do
                  </p>
                  <h2 className="text-[12px] leading-[1.4] pr-2 text-[#1a1a1a]">
-                    We ensure children in government schools get access to the arts and transform the art class into a space for growth and learning. Through poetry, theatre, storytelling, movement, and visual art, children find their voice and see themselves as capable.
+                    We ensure children in government schools get access to the arts and transform the art class into a space for growth and learning. Through poetry, theatre, storytelling, movement, and visual art, children develop future facing skills.
                  </h2>
                </div>
             </motion.div>

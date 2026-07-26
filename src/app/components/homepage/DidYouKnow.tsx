@@ -18,7 +18,7 @@ export default function DidYouKnow() {
           {...fadeInUp}
           className="text-2xl md:text-3xl font-normal mb-8 md:mb-12"
         >
-          Did you know?
+          Our reality
         </motion.h2>
 
         {/* Desktop Layout - Grid */}

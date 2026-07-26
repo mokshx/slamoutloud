@@ -62,7 +62,7 @@ const Newsletter = () => {
               Subscribe to SOL&apos;s newsletter
             </h2>
             <p className="text-lg md:text-xl text-black font-medium max-w-md">
-              Receive updates on what SOL is up to, mindfulness activities and art in your inbox!!
+              Receive updates on what SOL is up to, mindfulness activities and art in your inbox!
             </p>
           </div>
 
