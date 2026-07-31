@@ -1,6 +1,24 @@
+import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import Hero from "./components/homepage/Hero";
 import DidYouKnow from "./components/homepage/DidYouKnow";
+
+export const metadata: Metadata = {
+  title: {
+    absolute: "Slam Out Loud | Reimagining Education Through the Arts",
+  },
+  description:
+    "We reimagine learning through the arts, so children in government schools across India can flourish today and be ready for tomorrow. Discover Slam Out Loud's mission, programmes, and impact.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    url: "/",
+    title: "Slam Out Loud | Reimagining Education Through the Arts",
+    description:
+      "We reimagine learning through the arts, so children in government schools across India can flourish today and be ready for tomorrow.",
+  },
+};
 
 const WeareSOL = dynamic(() => import("./components/homepage/WeareSOL"));
 const VisionMission = dynamic(

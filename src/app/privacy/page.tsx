@@ -1,5 +1,21 @@
+import type { Metadata } from "next";
 import React from 'react';
 import Footer from '../components/Footer';
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description:
+    "Read Slam Out Loud's Privacy Policy to learn how we collect, use, disclose, store, and protect your personal information when you visit our website, make a donation, or participate in our programmes.",
+  alternates: {
+    canonical: "/privacy",
+  },
+  openGraph: {
+    url: "/privacy",
+    title: "Privacy Policy | Slam Out Loud",
+    description:
+      "How Slam Out Loud collects, uses, discloses, stores, and protects your personal information.",
+  },
+};
 
 export default function PrivacyPolicy() {
   return (
