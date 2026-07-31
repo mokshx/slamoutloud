@@ -4,6 +4,7 @@ import SOLKBol from "../components/afa/SOLKBol";
 import Diksha from "../components/afa/Diksha";
 import AFAPunjab from "../components/afa/punjab/AFAPunjab";
 import AFAMaharashtra from "../components/afa/maharashtra/AFAMaharashtra";
+import AFABihar from "../components/afa/bihar/AFABihar";
 
 export default function AFAPage() {
   return (
@@ -12,6 +13,7 @@ export default function AFAPage() {
       <SOLKBol />
       <AFAPunjab />
       <AFAMaharashtra />
+      <AFABihar />
       <Diksha />
       <Footer />
     </main>
