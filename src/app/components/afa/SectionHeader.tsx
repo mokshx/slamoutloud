@@ -2,25 +2,25 @@
 
 import { Download, ChevronUp } from "lucide-react";
 
-interface PunjabHeaderProps {
+interface SectionHeaderProps {
+  title: string;
+  linkLabel: string;
   isOpen: boolean;
   onToggle: () => void;
 }
 
-const PunjabHeader = ({ isOpen, onToggle }: PunjabHeaderProps) => {
+const SectionHeader = ({ title, linkLabel, isOpen, onToggle }: SectionHeaderProps) => {
   return (
     <div className="flex flex-wrap items-center justify-between gap-4 px-4 md:px-8 lg:px-16 py-6 md:py-8">
       <div className="flex flex-wrap items-center gap-4">
-        <h2 className="text-lg md:text-xl font-bold text-black">
-          Arts for All, Punjab
-        </h2>
+        <h2 className="text-lg md:text-xl font-bold text-black">{title}</h2>
 
         <a
           href="#"
           className="inline-flex items-center gap-2 rounded-full bg-black/5 hover:bg-black/10 transition-colors duration-300 px-4 py-2 text-xs md:text-sm font-semibold text-black"
         >
           <Download size={14} strokeWidth={2} />
-          Know more about Project Aawaaz
+          {linkLabel}
         </a>
       </div>
 
@@ -43,4 +43,4 @@ const PunjabHeader = ({ isOpen, onToggle }: PunjabHeaderProps) => {
   );
 };
 
-export default PunjabHeader;
+export default SectionHeader;
