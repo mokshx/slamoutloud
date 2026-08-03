@@ -17,7 +17,6 @@ export default function DonateAndJoin() {
             alt="Children engaging in various arts and activities in a book"
             fill
             className="object-contain"
-            priority
           />
         </div>
 

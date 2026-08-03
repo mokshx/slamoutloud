@@ -50,7 +50,6 @@ const Newsletter = () => {
               alt="Newsletter Illustration"
               fill
               className="object-contain"
-              priority
             />
           </div>
         </div>

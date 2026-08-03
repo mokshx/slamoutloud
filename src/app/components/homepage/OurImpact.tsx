@@ -69,7 +69,6 @@ export default function OurImpact() {
                 alt="Illustration of children building skills step by step"
                 fill
                 className="object-contain"
-                priority
               />
             </div>
           </div>

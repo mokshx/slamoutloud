@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
-import Hero from "./components/homepage/Hero";
+import HeroResponsive from "./components/homepage/HeroResponsive";
 import DidYouKnow from "./components/homepage/DidYouKnow";
 
 export const metadata: Metadata = {
@@ -43,7 +43,7 @@ const Footer = dynamic(() => import("./components/Footer"));
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <Hero />
+      <HeroResponsive />
       <DidYouKnow />
       <WeareSOL />
       <VisionMission />

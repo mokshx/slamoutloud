@@ -54,7 +54,6 @@ export default function WeareSOL() {
           width={1200}
           height={600}
           className="w-full h-auto object-contain"
-          priority
         />
       </motion.div>
     </section>
