@@ -37,7 +37,7 @@ export default function Programmes() {
 
             <div className="relative z-10 text-black flex flex-col h-full pl-12 md:pl-16 lg:pl-0">
               <h3 className="text-xl md:text-[26px] font-bold mb-4 leading-tight">
-                Art For All <br className="hidden md:block" /> (AFA)
+                Arts For All <br className="hidden md:block" /> (AFA)
               </h3>
               <p className="text-[10px] md:text-[11px] leading-relaxed mb-3 font-medium">
                 Through state partnerships in <strong>Punjab, Maharashtra and Bihar</strong>, Arts for All works with public education systems to make the art class a regular part of a child&rsquo;s school week. We partner with departments to strengthen policy, curriculum, teacher training and system resources, so arts learning is not optional or occasional, but delivered by government school teachers at scale.
