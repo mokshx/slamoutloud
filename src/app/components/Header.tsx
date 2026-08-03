@@ -12,6 +12,8 @@ export default function Header() {
   const navLinks = [
     { name: "About us", href: "/about-us" },
     { name: "Programmes", href: "/programmes" },
+    { name: "Arts for All", href: "/afa" },
+    { name: "Jijivisha", href: "/jijivisha" },
     { name: "Work with us", href: "/work-with-us" },
   ];
 
