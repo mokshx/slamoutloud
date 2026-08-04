@@ -13,7 +13,7 @@ export default function Header() {
     { name: "About us", href: "/about-us" },
     { name: "Programmes", href: "/programmes" },
     { name: "Arts for All", href: "/afa" },
-    { name: "Jijivisha", href: "/jijivisha" },
+    { name: "The Jijivisha Fellowship", href: "/jijivisha" },
     { name: "Work with us", href: "/work-with-us" },
   ];
 
@@ -23,9 +23,9 @@ export default function Header() {
     <header
       className={`${
         isHome ? "fixed w-full top-0" : "sticky top-0"
-      } z-50 py-4 px-6 md:px-12 bg-[#fffcf5]`}
+      } z-50 py-4 px-6 md:px-8 lg:px-12 bg-[#fffcf5]`}
     >
-      <div className="bg-[#fb747b] w-full rounded-2xl md:rounded-3xl px-4 md:px-12">
+      <div className="bg-[#fb747b] w-full rounded-2xl md:rounded-3xl px-4 md:px-6 lg:px-12">
         {/* Single bar – logo | nav (desktop) | donate + hamburger */}
         <div className="flex items-center justify-between h-14 md:h-16">
           {/* Logo */}
@@ -40,8 +40,8 @@ export default function Header() {
           </Link>
 
           {/* Right side: Desktop nav + Donate + hamburger */}
-          <div className="flex items-center gap-6">
-            <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-white">
+          <div className="flex items-center gap-3 lg:gap-6">
+            <nav className="hidden md:flex items-center gap-3 lg:gap-6 text-xs lg:text-sm font-medium text-white whitespace-nowrap">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
@@ -52,7 +52,7 @@ export default function Header() {
                       : "hover:text-red-100"
                   } ${
                     link.name === "Work with us"
-                      ? "border border-white/50 px-4 py-2 rounded-xl hover:bg-white/10"
+                      ? "border border-white/50 px-2.5 py-1.5 lg:px-4 lg:py-2 rounded-xl hover:bg-white/10"
                       : ""
                   }`}
                 >
@@ -63,7 +63,7 @@ export default function Header() {
             <Link
               href="https://milaap.org/fundraisers/slam-out-loud"
               target="_blank"
-              className="bg-white text-black px-4 py-2 rounded-xl hover:bg-gray-100 transition-colors shadow-sm font-medium text-sm"
+              className="bg-white text-black px-3 lg:px-4 py-1.5 lg:py-2 rounded-xl hover:bg-gray-100 transition-colors shadow-sm font-medium text-xs lg:text-sm whitespace-nowrap"
             >
               Donate
             </Link>
