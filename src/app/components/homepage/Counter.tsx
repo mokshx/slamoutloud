@@ -14,7 +14,7 @@ interface CounterProps {
 
 export default function Counter({ value, from = 0, prefix = '', suffix = '', duration = 2, className = '' }: CounterProps) {
   const ref = useRef<HTMLSpanElement>(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const isInView = useInView(ref, { once: true, margin: "0px 0px -15% 0px" });
   const count = useMotionValue(from);
   const rounded = useTransform(count, (latest) => {
     return Math.floor(latest).toLocaleString();
