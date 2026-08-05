@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     url: "/jijivisha",
     title: "The Jijivisha Fellowship | Slam Out Loud",
     description:
-      "We place trained fellows in classrooms and communities across Delhi, Bengaluru, Mumbai, and Pune to use art periods to build core social-emotional skills.",
+      "We place trained art educators inside classrooms and community spaces across Delhi, Bengaluru, Mumbai, and Pune, where art periods are intentionally designed to build identity, aspiration, resilience, and agency.",
     images: [
       {
         url: "/jijivisha/jijivisha_header.png",

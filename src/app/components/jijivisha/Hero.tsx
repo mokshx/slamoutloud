@@ -34,8 +34,9 @@ const Hero = () => {
             The Jijivisha Fellowship
           </h1>
           <p className="text-sm sm:text-base md:text-lg mb-6 sm:mb-8 font-light leading-relaxed">
-            We place trained fellows in classrooms and communities, to use art
-            periods to build core social-emotional skills.
+            We place trained art educators inside classrooms and community
+            spaces where art periods are intentionally designed to build
+            identity, aspiration, resilience, and agency.
           </p>
           <div className="pt-4 border-white inline-block">
             <span className="text-xs sm:text-sm font-bold tracking-widest uppercase">

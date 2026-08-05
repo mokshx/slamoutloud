@@ -34,9 +34,11 @@ const Hero = () => {
             Arts for All <br /> (AFA)
           </h1>
           <p className="text-sm sm:text-base md:text-lg font-medium leading-relaxed">
-            Through state partnerships in Punjab, Maharashtra, and Bihar, AFA 
-            brings SEL into government schools. Rooted in local culture and 
-            expressions shaped by everyday realities.
+            Through state partnerships in Punjab, Maharashtra, Bihar, and
+            Meghalaya, AFA transforms how arts education is designed and
+            experienced in government schools: building contextual
+            curriculum, strengthening state system resources, and opening
+            pathways into creative futures.
           </p>
         </motion.div>
       </div>

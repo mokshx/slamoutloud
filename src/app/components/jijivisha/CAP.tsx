@@ -26,13 +26,10 @@ export default function CAP() {
             
             <div className="space-y-6 text-[#1A1A1A] text-lg leading-relaxed">
               <p>
-                Through Community Art Projects (CAPs), students apply their skills to local realities.
+                Through Community Art Projects (CAPs), students apply these capacities to their own realities: documenting family stories, creating films on social issues, designing murals, publishing books, and building theatre performances.
               </p>
               <p>
-                Documenting family stories, creating films about social issues, designing collaborative murals, publishing books, or building theatre performances.
-              </p>
-              <p>
-                In the process, children become leaders, parents become collaborators, and communities begin to see young people as active co-creators and not passive consumers.
+                In the process, children move from passive observers to active co-creators. Parents become collaborators. Communities begin to see young people as leaders and not passive consumers.
               </p>
             </div>
 
@@ -76,19 +73,19 @@ export default function CAP() {
               <div className="text-white">
                 <span className="text-4xl md:text-5xl font-bold block mb-2">36.6%</span>
                 <p className="text-sm md:text-base opacity-90 leading-snug">
-                  Growth in curiosity skills (over 25% gain)
+                  Growth in learning agility skills (over 25% gain)
                 </p>
               </div>
               <div className="text-white">
                 <span className="text-4xl md:text-5xl font-bold block mb-2">32.5%</span>
                 <p className="text-sm md:text-base opacity-90 leading-snug">
-                  Improvement in emotional awareness
+                  Improvement in emotional intelligence
                 </p>
               </div>
               <div className="text-white">
                 <span className="text-4xl md:text-5xl font-bold block mb-2">35.5%</span>
                 <p className="text-sm md:text-base opacity-90 leading-snug">
-                  Improvement in imagination
+                  Improvement in creative thinking
                 </p>
               </div>
             </div>

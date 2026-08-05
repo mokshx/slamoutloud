@@ -10,7 +10,7 @@ import AFABihar from "../components/afa/bihar/AFABihar";
 export const metadata: Metadata = {
   title: "Arts for All (AFA)",
   description:
-    "Arts for All partners with state governments in Punjab, Maharashtra, and Bihar to bring social-emotional learning into public schools, strengthening policy, curriculum, and teacher training so every child gets an art class.",
+    "Arts for All partners with state governments in Punjab, Maharashtra, Bihar, and Meghalaya to transform how arts education is designed and experienced in government schools, building contextual curriculum and opening pathways into creative futures.",
   alternates: {
     canonical: "/afa",
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "/afa",
     title: "Arts for All (AFA) | Slam Out Loud",
     description:
-      "Through state partnerships in Punjab, Maharashtra, and Bihar, Arts for All brings social-emotional learning into government schools, rooted in local culture and everyday realities.",
+      "Through state partnerships in Punjab, Maharashtra, Bihar, and Meghalaya, Arts for All transforms how arts education is designed and experienced in government schools, building contextual curriculum and opening pathways into creative futures.",
     images: [
       {
         url: "/afa/hero.png",

@@ -18,15 +18,15 @@ export default function TJF() {
           className="w-full md:w-[55%] flex flex-col gap-8 order-1"
         >
           <h2 className="text-3xl md:text-4xl lg:text-[42px] leading-[1.2] tracking-tight font-medium text-[#1A1A1A]">
-            TJF gives children structured tools to notice{" "}
+            TJF is where art periods become something more:{" "}
             <span className="font-extrabold italic">
-              what they feel, challenge what they see, and express what they believe.
+              structured experiences that build a child&apos;s sense of who they are, what they&apos;re capable of, and where they&apos;re going.
             </span>
           </h2>
 
           <p className="text-lg md:text-[20px] leading-relaxed text-[#333333] max-w-[90%] font-light">
-            From climate awareness to gender equity, the program expands learning
-            beyond classrooms, enabling children to carry their voice into daily life
+            From climate awareness to gender equity, the programme expands learning
+            beyond the classroom, enabling children to carry their voice into daily life.
           </p>
 
           {/* Features Grid */}
