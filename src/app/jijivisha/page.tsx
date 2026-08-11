@@ -8,7 +8,7 @@ import ProjectsCarousel from "../components/jijivisha/ProjectsCarousel";
 export const metadata: Metadata = {
   title: "The Jijivisha Fellowship",
   description:
-    "The Jijivisha Fellowship places trained art educators in classrooms and communities across Delhi, Bengaluru, Mumbai, and Pune, using art periods to build children's core social-emotional skills, identity, and resilience.",
+    "The Jijivisha Fellowship places carefully selected art educators inside low-income classrooms across Delhi, Bengaluru, Mumbai, and Pune, working closely with children, teachers, parents and schools.",
   alternates: {
     canonical: "/jijivisha",
   },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     url: "/jijivisha",
     title: "The Jijivisha Fellowship | Slam Out Loud",
     description:
-      "We place trained art educators inside classrooms and community spaces across Delhi, Bengaluru, Mumbai, and Pune, where art periods are intentionally designed to build identity, aspiration, resilience, and agency.",
+      "The Jijivisha Fellowship places carefully selected art educators inside low-income classrooms across Delhi, Bengaluru, Mumbai, and Pune, working closely with children, teachers, parents and schools.",
     images: [
       {
         url: "/jijivisha/jijivisha_header.png",

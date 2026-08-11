@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const stats = [
-  { value: "1,400+", label: "Schools" },
+  { value: "1,044", label: "Schools" },
   { value: "2,00,000", label: "Children" },
   { value: "59,000", label: "Participated" },
   { value: "5,000+", label: "Performances" },

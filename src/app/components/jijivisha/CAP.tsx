@@ -26,10 +26,10 @@ export default function CAP() {
             
             <div className="space-y-6 text-[#1A1A1A] text-lg leading-relaxed">
               <p>
-                Through Community Art Projects (CAPs), students apply these capacities to their own realities: documenting family stories, creating films on social issues, designing murals, publishing books, and building theatre performances.
+                Through Community Art Projects, fellows work with children to respond to their own realities. These projects either address a challenge in the community or celebrate its culture, stories, and abundance. Children document family histories, create films on social issues, design murals, publish books, and build theatre performances.
               </p>
               <p>
-                In the process, children move from passive observers to active co-creators. Parents become collaborators. Communities begin to see young people as leaders and not passive consumers.
+                In the process, children move from passive observers to active co-creators. Parents become collaborators. Communities begin to see young people as leaders, storytellers, and changemakers.
               </p>
             </div>
 

@@ -19,7 +19,7 @@ const BiharPartnership = () => {
       </p>
 
       <p className="text-sm md:text-base leading-relaxed">
-        Teacher were trained to implement the curriculum through interactive,
+        Teachers were trained to implement the curriculum through interactive,
         arts-based methods that make digital education engaging and
         human-centered.
       </p>

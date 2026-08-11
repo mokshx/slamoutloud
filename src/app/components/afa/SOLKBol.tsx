@@ -16,24 +16,14 @@ const SOLKBol = () => {
           className="flex flex-col gap-10"
         >
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-medium leading-tight text-black">
-            AFA upskills art teachers to integrate identity, aspiration, and inner readiness into existing art periods,{" "}
-            <span className="font-bold italic">
-              creating platforms where student voice becomes visible at scale.
-            </span>
+            Across Punjab, Maharashtra and Bihar, we build contextual
+            curriculum rooted in the state&rsquo;s culture, stories and
+            identities, train and coach government school teachers through
+            the year, and strengthen state resources for arts-based learning.
+            We also create platforms for children who want to go deeper into
+            the arts, opening pathways for creative expression, confidence
+            and future possibility.
           </h2>
-
-          <div className="flex flex-col sm:flex-row gap-8 md:gap-4 lg:gap-8">
-            <div className="border-l-[1.5px] border-black pl-4 py-1 flex-1">
-              <p className="text-sm md:text-base text-black font-medium leading-snug">
-                Students learn to read their world
-              </p>
-            </div>
-            <div className="border-l-[1.5px] border-black pl-4 py-1 flex-1">
-              <p className="text-sm md:text-base text-black font-medium leading-snug">
-                Locate themselves within it, and show up fully
-              </p>
-            </div>
-          </div>
         </motion.div>
 
         {/* Right Image */}

@@ -33,10 +33,16 @@ const Hero = () => {
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold mb-4 sm:mb-6 leading-tight">
             The Jijivisha Fellowship
           </h1>
+          <p className="text-sm sm:text-base md:text-lg mb-4 font-light leading-relaxed">
+            The Jijivisha Fellowship places carefully selected art educators
+            inside low-income classrooms.
+          </p>
           <p className="text-sm sm:text-base md:text-lg mb-6 sm:mb-8 font-light leading-relaxed">
-            We place trained art educators inside classrooms and community
-            spaces where art periods are intentionally designed to build
-            identity, aspiration, resilience, and agency.
+            Our fellows come from backgrounds in the arts, psychology,
+            education, facilitation, and art therapy. Through a rigorous
+            selection and training process, they become full-time educators
+            and community workers in low-income communities, working closely
+            with children, teachers, parents and schools.
           </p>
           <div className="pt-4 border-white inline-block">
             <span className="text-xs sm:text-sm font-bold tracking-widest uppercase">

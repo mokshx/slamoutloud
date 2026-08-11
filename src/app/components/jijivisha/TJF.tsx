@@ -18,15 +18,16 @@ export default function TJF() {
           className="w-full md:w-[55%] flex flex-col gap-8 order-1"
         >
           <h2 className="text-3xl md:text-4xl lg:text-[42px] leading-[1.2] tracking-tight font-medium text-[#1A1A1A]">
-            TJF is where art periods become something more:{" "}
+            In Jijivisha classrooms, art periods become{" "}
             <span className="font-extrabold italic">
-              structured experiences that build a child&apos;s sense of who they are, what they&apos;re capable of, and where they&apos;re going.
+              structured experiences that build a child&apos;s sense of who they are, what they are capable of, and where they are going.
             </span>
           </h2>
 
           <p className="text-lg md:text-[20px] leading-relaxed text-[#333333] max-w-[90%] font-light">
-            From climate awareness to gender equity, the programme expands learning
-            beyond the classroom, enabling children to carry their voice into daily life.
+            From climate awareness to gender equity, children use poetry, theatre,
+            storytelling, movement, and visual art to explore the world around them
+            and carry their voice into daily life.
           </p>
 
           {/* Features Grid */}
