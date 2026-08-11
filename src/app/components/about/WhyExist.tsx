@@ -4,21 +4,10 @@ export default function WhyExist() {
   return (
     <section className="bg-[#ff7b7b] py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto text-black">
-        <h2 className="text-2xl font-bold mb-12">Why we exist</h2>
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
-          {/* Column 1 — Origin story */}
+          {/* Column 1 — Image */}
           <div className="flex flex-col gap-6">
-            <p className="text-lg leading-relaxed">
-              In 2014, our co-founder Jigyasa watched children move through
-              school in silence, rarely given real space to feel, imagine, or
-              create.
-            </p>
-            <p className="text-lg leading-relaxed">
-              A spoken-word poetry workshop in Kashmir changed everything. What
-              poured out was undeniable.
-            </p>
-            <div className="relative w-full aspect-[4/3] mt-4 rounded-lg overflow-hidden shadow-lg">
+            <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
               <Image
                 src="/about/why_we_exist.png"
                 alt="That moment became Slam Out Loud"

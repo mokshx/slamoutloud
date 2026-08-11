@@ -66,7 +66,6 @@ export default function Footer() {
               <li><a href="https://drive.google.com/file/d/1xDd1Pvp-rlz_QWEUJLyHmdd58Qyid_Rf/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">FCRA Registration</a></li>
               <li><a href="https://drive.google.com/file/d/1JcSSTNEnCF6rh5eaVGYPsnzgXNvCqxye/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">80G Certificate</a></li>
               <li><a href="https://drive.google.com/file/d/1bZraOAcEniqkWgfeajAf_eKehtdWX1NO/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">12A Registration</a></li>
-              <li><a href="https://drive.google.com/file/d/1C0-rQEGPNa97V4GiufIEcXX_nByvPE95/view" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">Annual Financial Statement FY 2024-25</a></li>
             </ul>
           </div>
         </div>
