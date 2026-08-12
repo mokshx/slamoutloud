@@ -67,25 +67,25 @@ export default function CAP() {
               <div className="text-white">
                 <span className="text-4xl md:text-5xl font-bold block mb-2">332+</span>
                 <p className="text-sm md:text-base opacity-90 leading-snug">
-                  Hours development training for fellows.
+                  Hours of training and support for fellows.
                 </p>
               </div>
               <div className="text-white">
-                <span className="text-4xl md:text-5xl font-bold block mb-2">36.6%</span>
+                <span className="text-4xl md:text-5xl font-bold block mb-2">26.4%</span>
                 <p className="text-sm md:text-base opacity-90 leading-snug">
-                  Growth in learning agility skills (over 25% gain)
+                  Improvement in curiosity
                 </p>
               </div>
               <div className="text-white">
-                <span className="text-4xl md:text-5xl font-bold block mb-2">32.5%</span>
+                <span className="text-4xl md:text-5xl font-bold block mb-2">9.1%</span>
                 <p className="text-sm md:text-base opacity-90 leading-snug">
-                  Improvement in emotional intelligence
+                  Improvement in emotional regulation
                 </p>
               </div>
               <div className="text-white">
-                <span className="text-4xl md:text-5xl font-bold block mb-2">35.5%</span>
+                <span className="text-4xl md:text-5xl font-bold block mb-2">22.1%</span>
                 <p className="text-sm md:text-base opacity-90 leading-snug">
-                  Improvement in creative thinking
+                  Improvement in imagination
                 </p>
               </div>
             </div>
