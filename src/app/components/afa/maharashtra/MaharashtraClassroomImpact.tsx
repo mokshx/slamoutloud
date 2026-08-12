@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 
 const numericStats = [
   { value: "43", label: "SEL Champions" },
-  { value: "534", label: "Schools" },
-  { value: "60,000+", label: "Students" },
-  { value: "534", label: "Teachers" },
+  { value: "200", label: "Schools" },
+  { value: "55,000", label: "Students" },
+  { value: "392", label: "Teachers" },
 ];
 
 const percentageStats = [

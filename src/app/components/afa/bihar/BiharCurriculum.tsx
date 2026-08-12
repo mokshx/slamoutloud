@@ -20,7 +20,7 @@ const BiharCurriculum = () => {
       </p>
 
       <div className="flex flex-col gap-1">
-        <span className="text-2xl md:text-3xl font-bold">45,000</span>
+        <span className="text-2xl md:text-3xl font-bold">49,338</span>
         <p className="text-sm md:text-base italic leading-snug">
           students reached across grades 6–12 by the end of the year
         </p>

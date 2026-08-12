@@ -7,7 +7,7 @@ const statesData = [
   {
     name: "Punjab (2022)",
     content: "Gender Equity",
-    reach: "5.9 million students | 2.57 lakh teachers",
+    reach: "5.8 million students | 2.57 lakh teachers",
   },
   {
     name: "Maharashtra (2023)",
@@ -22,7 +22,7 @@ const statesData = [
   {
     name: "Andhra Pradesh (2025)",
     content: "Digital Literacy Awareness",
-    reach: "3.3 million students | 2.1 lakh teachers",
+    reach: "2.5 million students | 2.1 lakh teachers",
   },
 ];
 
@@ -40,7 +40,7 @@ const Diksha = () => {
             className="lg:col-span-2 flex flex-col gap-10"
           >
             <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-black leading-tight">
-              Digital Reach via Diksha
+              Digital Reach via DIKSHA
             </h2>
             <div className="relative w-full overflow-hidden rounded-xl shadow-lg border border-gray-100">
               <Image
