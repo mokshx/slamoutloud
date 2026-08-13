@@ -51,7 +51,7 @@ const solmates = [
     name: "Veer Rathi",
     designation: "Director – Learning Excellence",
     linkedin: "http://www.linkedin.com/in/neha-rathi-a4522018",
-    image: "veer_rathi.png"
+    image: "veer_r.jpg"
   },
   {
     name: "Ashvini Sawant",
@@ -151,7 +151,7 @@ const solmates = [
   },
   {
     name: "Varun Pawar",
-    designation: "Chief of Program",
+    designation: "Co-Founder",
     linkedin: "https://www.linkedin.com/in/varun-pawar-bab21657/",
     image: "varun_pawar.png"
   },
@@ -228,7 +228,7 @@ const Solmates = () => {
   return (
     <section className="bg-[#FDF9F3] py-20 px-4 md:px-10">
       <div className="max-w-[1400px] mx-auto">
-        <motion.div 
+        <motion.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -257,7 +257,7 @@ const Solmates = () => {
                     sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 12.5vw"
                     className="object-cover transition-all duration-500 group-hover:blur-md group-hover:scale-110"
                   />
-                  
+
                   {/* Hover Overlay */}
                   <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col items-center justify-center text-center p-4 z-10">
                     <h3 className="text-white font-bold text-lg md:text-xl mb-1 leading-tight transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">

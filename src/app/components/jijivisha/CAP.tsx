@@ -8,9 +8,9 @@ export default function CAP() {
     <section className="bg-[#FAF7F2] py-12 md:py-24 px-6 md:px-12 lg:px-24 overflow-hidden">
       <div className="max-w-7xl mx-auto relative">
         <div className="flex flex-col lg:flex-row items-stretch">
-          
+
           {/* Peach Box - Community Art Projects (CAPs) */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.2 }}
@@ -23,7 +23,7 @@ export default function CAP() {
             <p className="text-lg md:text-xl font-bold text-[#1A1A1A] mb-8">
               Showcase platform for<br />The Jijivisha Fellowship
             </p>
-            
+
             <div className="space-y-6 text-[#1A1A1A] text-lg leading-relaxed">
               <p>
                 Through Community Art Projects, fellows work with children to respond to their own realities. These projects either address a challenge in the community or celebrate its culture, stories, and abundance. Children document family histories, create films on social issues, design murals, publish books, and build theatre performances.
@@ -34,7 +34,7 @@ export default function CAP() {
             </div>
 
             {/* Pretzel Image */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8, rotate: -20 }}
               whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
               viewport={{ once: true }}
@@ -51,7 +51,7 @@ export default function CAP() {
           </motion.div>
 
           {/* Teal Box - Impact */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.2 }}
@@ -67,7 +67,7 @@ export default function CAP() {
               <div className="text-white">
                 <span className="text-4xl md:text-5xl font-bold block mb-2">332+</span>
                 <p className="text-sm md:text-base opacity-90 leading-snug">
-                  Hours of training and support for fellows.
+                  Hours of training and support for fellows
                 </p>
               </div>
               <div className="text-white">
@@ -104,7 +104,7 @@ export default function CAP() {
             </div>
 
             {/* Star Image */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8, rotate: 20 }}
               whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
               viewport={{ once: true }}

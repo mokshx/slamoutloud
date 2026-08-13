@@ -3,29 +3,29 @@ import { useRef } from "react";
 import Image from "next/image";
 
 const teamMembers = [
-  { 
-    name: "Jigyasa Labroo", 
+  {
+    name: "Jigyasa Labroo",
     image: "/about/core_team/jigyasa.png",
     designation: "Co-Founder and CEO"
   },
-  { 
-    name: "Gaurav Singh", 
+  {
+    name: "Gaurav Singh",
     image: "/about/core_team/gaurav.png",
     designation: "Co-Founder"
   },
-  { 
-    name: "Sanea Mahajan", 
+  {
+    name: "Sanea Mahajan",
     image: "/about/core_team/sanea.png",
     designation: "Senior Manager – People and Culture"
   },
-  { 
-    name: "Rakishma", 
+  {
+    name: "Rakishma",
     image: "/about/core_team/rakishma.png",
     designation: "Associate Director – Impact Evaluation and Program Design"
   },
-  { 
-    name: "Veer Rathi", 
-    image: "/about/core_team/veer.png",
+  {
+    name: "Veer Rathi",
+    image: "/about/core_team/veer.jpg",
     designation: "Director – Learning Excellence"
   },
 ];
@@ -47,10 +47,10 @@ export default function CoreTeam() {
     <section className="bg-[#faa743] py-20 px-6 md:px-12 relative overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl font-bold mb-12 text-black">Our Core team</h2>
-        
+
         <div className="relative group">
           {/* Navigation Buttons */}
-          <button 
+          <button
             onClick={() => scroll("left")}
             className="absolute left-[-20px] md:left-[-50px] top-1/2 -translate-y-1/2 z-10 p-3 bg-transparent border-2 border-black rounded-full hover:bg-black/10 transition-colors"
             aria-label="Previous slide"
@@ -59,8 +59,8 @@ export default function CoreTeam() {
               <path d="M15 18l-6-6 6-6"/>
             </svg>
           </button>
-          
-          <button 
+
+          <button
             onClick={() => scroll("right")}
             className="absolute right-[-20px] md:right-[-50px] top-1/2 -translate-y-1/2 z-10 p-3 bg-transparent border-2 border-black rounded-full hover:bg-black/10 transition-colors"
             aria-label="Next slide"
@@ -71,13 +71,13 @@ export default function CoreTeam() {
           </button>
 
           {/* Slider Container */}
-          <div 
+          <div
             ref={scrollRef}
             className="flex gap-12 overflow-x-auto scrollbar-hide snap-x snap-mandatory pb-4 hide-scrollbar justify-start"
             style={{ msOverflowStyle: 'none', scrollbarWidth: 'none' }}
           >
             {teamMembers.map((member, index) => (
-              <div 
+              <div
                 key={index}
                 className="flex-none w-[183px] snap-start"
               >
@@ -97,7 +97,7 @@ export default function CoreTeam() {
               </div>
             ))}
           </div>
-          
+
           <style jsx>{`
             .hide-scrollbar::-webkit-scrollbar {
               display: none;

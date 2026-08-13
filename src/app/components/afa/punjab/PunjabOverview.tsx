@@ -7,7 +7,7 @@ const stats = [
   { value: "1,400+", label: "Schools" },
   { value: "2,00,000", label: "Children" },
   { value: "37,000", label: "Students Performed" },
-  { value: "5,000+", label: "Performances" },
+  // { value: "5,000+", label: "Performances" },
 ];
 
 const PunjabOverview = () => {
