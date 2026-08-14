@@ -46,6 +46,7 @@ export default function Partners() {
                   src={testimonials[0].logo}
                   alt="Godrej Foundation"
                   fill
+                  sizes="96px"
                   className="object-contain object-left"
                 />
               </div>
@@ -74,6 +75,7 @@ export default function Partners() {
                   src={testimonials[1].logo}
                   alt="Girl Rising"
                   fill
+                  sizes="96px"
                   className="object-contain object-left"
                 />
               </div>

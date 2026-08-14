@@ -69,6 +69,7 @@ export default function OurImpact() {
                 alt="Illustration of children building skills step by step"
                 fill
                 className="object-contain"
+                sizes="(max-width: 768px) 100vw, 576px"
               />
             </div>
           </div>

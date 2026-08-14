@@ -54,6 +54,7 @@ export default function DidYouKnow() {
                 alt="Melting clock illustration"
                 fill
                 className="object-contain"
+                sizes="192px"
               />
             </div>
           </motion.div>
@@ -75,6 +76,7 @@ export default function DidYouKnow() {
                 alt="Hand with pencil illustration"
                 fill
                 className="object-contain"
+                sizes="192px"
               />
             </div>
           </motion.div>
@@ -115,6 +117,7 @@ export default function DidYouKnow() {
                   alt="Melting clock illustration"
                   fill
                   className="object-contain"
+                  sizes="160px"
                 />
               </div>
             </div>
@@ -137,6 +140,7 @@ export default function DidYouKnow() {
                   alt="Hand with pencil illustration"
                   fill
                   className="object-contain"
+                  sizes="160px"
                 />
               </div>
             </div>
@@ -175,6 +179,7 @@ export default function DidYouKnow() {
                   alt="Melting clock illustration"
                   fill
                   className="object-contain"
+                  sizes="144px"
                 />
               </div>
             </motion.div>
@@ -195,6 +200,7 @@ export default function DidYouKnow() {
                   alt="Hand with pencil illustration"
                   fill
                   className="object-contain"
+                  sizes="144px"
                 />
               </div>
             </motion.div>

@@ -46,6 +46,7 @@ export default function CAP() {
                 alt="Decorative pretzel"
                 fill
                 className="object-contain"
+                sizes="192px"
               />
             </motion.div>
           </motion.div>
@@ -116,6 +117,7 @@ export default function CAP() {
                 alt="Decorative star character"
                 fill
                 className="object-contain"
+                sizes="320px"
               />
             </motion.div>
           </motion.div>

@@ -46,6 +46,7 @@ const PunjabTeacherQuote = () => {
             alt="Ishu Parmar, Art Mentor, Government High School Darauli"
             fill
             className="object-cover"
+            sizes="(max-width: 768px) 80px, 96px"
           />
         </div>
         <p className="text-sm md:text-base font-semibold text-black leading-snug">

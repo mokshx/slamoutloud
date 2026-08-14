@@ -20,6 +20,7 @@ const Hero = () => {
             fill
             className="object-cover"
             priority
+            sizes="(max-width: 1280px) 100vw, 1280px"
           />
         </motion.div>
 

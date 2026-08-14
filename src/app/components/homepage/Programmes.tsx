@@ -27,11 +27,12 @@ export default function Programmes() {
           >
             {/* Pencil Illustration */}
             <div className="absolute -left-12 md:-left-[140px] lg:-left-[180px] -bottom-8 md:-bottom-12 w-44 md:w-[240px] lg:w-[280px] aspect-[1/3] z-30 pointer-events-none text-red-500">
-              <Image 
-                src="/programmes_pencil.png" 
-                alt="Pencil character" 
-                fill 
+              <Image
+                src="/programmes_pencil.png"
+                alt="Pencil character"
+                fill
                 className="object-contain object-bottom"
+                sizes="(max-width: 768px) 176px, (max-width: 1024px) 240px, 280px"
               />
             </div>
 
@@ -63,11 +64,12 @@ export default function Programmes() {
           >
             {/* Sun Illustration */}
             <div className="absolute -top-24 md:-top-[160px] lg:-top-[200px] -right-16 md:-right-[180px] lg:-right-[220px] w-56 md:w-[320px] lg:w-[400px] aspect-[4/3] z-30 pointer-events-none">
-              <Image 
-                src="/programmes_sun.png" 
-                alt="Sun character" 
-                fill 
+              <Image
+                src="/programmes_sun.png"
+                alt="Sun character"
+                fill
                 className="object-contain object-top"
+                sizes="(max-width: 768px) 224px, (max-width: 1024px) 320px, 400px"
               />
             </div>
 

@@ -10,6 +10,7 @@ export default function Hero() {
             src="/weare_sol.png"
             alt="Slam Out Loud Community Illustration"
             fill
+            sizes="(min-width: 768px) 768px, 100vw"
             className="object-contain"
             priority
           />

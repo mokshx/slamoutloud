@@ -17,7 +17,7 @@ export default function Counter({ value, from = 0, prefix = '', suffix = '', dur
   const isInView = useInView(ref, { once: true, margin: "0px 0px -15% 0px" });
   const count = useMotionValue(from);
   const rounded = useTransform(count, (latest) => {
-    return Math.floor(latest).toLocaleString();
+    return Math.floor(latest).toLocaleString('en-US');
   });
 
   useEffect(() => {

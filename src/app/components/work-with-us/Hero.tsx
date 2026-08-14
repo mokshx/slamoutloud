@@ -11,6 +11,7 @@ export default function Hero() {
             fill
             className="object-cover transition-transform duration-700 group-hover:scale-105"
             priority
+            sizes="(max-width: 1280px) 100vw, 1280px"
           />
           
           {/* Pink Overlay Box */}

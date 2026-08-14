@@ -9,9 +9,10 @@ export default function WhyExist() {
           <div className="flex flex-col gap-6">
             <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/about/why_we_exist.png"
+                src="/about/why_we_exist.webp"
                 alt="That moment became Slam Out Loud"
                 fill
+                sizes="(min-width: 768px) 33vw, 100vw"
                 className="object-cover"
               />
             </div>

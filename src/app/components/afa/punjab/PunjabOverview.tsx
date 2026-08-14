@@ -26,6 +26,7 @@ const PunjabOverview = () => {
           alt="Student performing at a Kala Sath showcase"
           fill
           className="object-cover"
+          sizes="(max-width: 768px) 100vw, 640px"
         />
       </motion.div>
 
@@ -91,6 +92,7 @@ const PunjabOverview = () => {
               alt="Children reading a redesigned art textbook"
               fill
               className="object-contain"
+              sizes="(max-width: 768px) 64px, 80px"
             />
           </div>
         </motion.div>

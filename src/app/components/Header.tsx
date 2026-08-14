@@ -34,7 +34,7 @@ export default function Header() {
               src="/sol_logo.png"
               alt="Slam Out Loud Logo"
               width={50}
-              height={30}
+              height={56}
               className="object-contain"
             />
           </Link>

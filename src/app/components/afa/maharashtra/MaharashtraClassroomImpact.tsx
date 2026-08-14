@@ -85,6 +85,7 @@ const MaharashtraClassroomImpact = () => {
             alt="Child reaching out to a butterfly"
             fill
             className="object-contain object-left"
+            sizes="(max-width: 768px) 160px, 192px"
           />
         </div>
       </motion.div>

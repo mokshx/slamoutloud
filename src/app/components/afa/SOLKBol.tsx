@@ -39,6 +39,7 @@ const SOLKBol = () => {
             alt="SOL KE BOL"
             fill
             className="object-cover"
+            sizes="(max-width: 768px) 100vw, 640px"
           />
         </motion.div>
       </div>

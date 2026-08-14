@@ -17,6 +17,7 @@ const BiharIllustration = () => {
         alt="Digital Saathi character"
         fill
         className="object-contain"
+        sizes="260px"
       />
     </motion.div>
   );
