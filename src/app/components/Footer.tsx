@@ -24,7 +24,7 @@ export default function Footer() {
               <p>Innov8 CP2, 44, Backary Portion, 2nd Floor, Regal Building,</p>
               <p>New Delhi – 110001.</p>
             </div>
-            
+
             {/* Social Icons */}
             <div className="flex gap-4">
               <a href="https://www.instagram.com/slamoutloud/?next=%2F&hl=en" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-12 h-12 bg-black text-[#ff7b7b] rounded-full hover:bg-black/80 transition-colors">
@@ -53,8 +53,8 @@ export default function Footer() {
           <div className="flex flex-col gap-6">
             <h3 className="font-bold text-xl text-black">Support</h3>
             <ul className="flex flex-col gap-4 text-black/70">
-              <li><Link href="#" className="hover:text-black transition-colors text-base md:text-lg font-medium">Contact</Link></li>
-              <li><Link href="#" className="hover:text-black transition-colors text-base md:text-lg font-medium">Join Team SOL</Link></li>
+              <li><Link href="/work-with-us" className="hover:text-black transition-colors text-base md:text-lg font-medium">Contact</Link></li>
+              <li><Link href="/work-with-us" className="hover:text-black transition-colors text-base md:text-lg font-medium">Join Team SOL</Link></li>
               <li><Link href="/privacy" className="hover:text-black transition-colors text-base md:text-lg font-medium">Privacy Policy</Link></li>
             </ul>
           </div>
@@ -63,9 +63,9 @@ export default function Footer() {
           <div className="flex flex-col gap-6">
             <h3 className="font-bold text-xl text-black">Financials</h3>
             <ul className="flex flex-col gap-4 text-black/70">
-              <li><a href="https://drive.google.com/file/d/1xDd1Pvp-rlz_QWEUJLyHmdd58Qyid_Rf/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">FCRA Registration</a></li>
-              <li><a href="https://drive.google.com/file/d/1JcSSTNEnCF6rh5eaVGYPsnzgXNvCqxye/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">80G Certificate</a></li>
-              <li><a href="https://drive.google.com/file/d/1bZraOAcEniqkWgfeajAf_eKehtdWX1NO/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">12A Registration</a></li>
+              <li><a href="https://drive.google.com/file/d/1-COrW_HwzG5jUA1ICs6F0FrEcfY7Wi_k/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">FCRA Registration</a></li>
+              <li><a href="https://drive.google.com/file/d/1paY4SleWiy8FnqkrvJvkgcTIIPqOVCvP/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">80G Certificate</a></li>
+              <li><a href="https://drive.google.com/file/d/1H07HJdZ-ByThZpxCcaxzbGi_ST9PyFC6/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">12A Registration</a></li>
             </ul>
           </div>
         </div>
@@ -73,4 +73,3 @@ export default function Footer() {
     </footer>
   );
 }
-
