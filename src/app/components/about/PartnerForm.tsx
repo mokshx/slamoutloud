@@ -57,7 +57,7 @@ export default function PartnerForm() {
 
   if (status === "success") {
     return (
-      <section className="bg-[#4AB097] py-16 px-6 md:px-16 lg:px-24 text-center">
+      <section id="partner-with-us" className="bg-[#4AB097] py-16 px-6 md:px-16 lg:px-24 text-center">
         <div className="max-w-3xl mx-auto bg-white/10 p-12 rounded-3xl backdrop-blur-sm">
           <h2 className="text-4xl font-bold mb-6 text-black">Thank you!</h2>
           <p className="text-2xl text-black/80 mb-8">
@@ -75,7 +75,7 @@ export default function PartnerForm() {
   }
 
   return (
-    <section className="bg-[#4AB097] py-16 px-6 md:px-16 lg:px-24">
+    <section id="partner-with-us" className="bg-[#4AB097] py-16 px-6 md:px-16 lg:px-24">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-black">
           Partner with us

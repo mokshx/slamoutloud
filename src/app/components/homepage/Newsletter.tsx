@@ -39,7 +39,7 @@ const Newsletter = () => {
   };
 
   return (
-    <section className="w-full bg-[#FFF9F1] py-12 md:py-20 px-6 md:px-12 flex justify-center overflow-hidden">
+    <section id="newsletter" className="w-full bg-[#FFF9F1] py-12 md:py-20 px-6 md:px-12 flex justify-center overflow-hidden">
       <div className="max-w-7xl w-full flex flex-col md:flex-row items-center justify-between gap-12 md:gap-20">
         
         {/* Left Section: Illustration */}

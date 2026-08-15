@@ -53,7 +53,7 @@ export default function Footer() {
           <div className="flex flex-col gap-6">
             <h3 className="font-bold text-xl text-black">Support</h3>
             <ul className="flex flex-col gap-4 text-black/70">
-              <li><Link href="/work-with-us" className="hover:text-black transition-colors text-base md:text-lg font-medium">Contact</Link></li>
+              <li><Link href="/contact-us" className="hover:text-black transition-colors text-base md:text-lg font-medium">Contact</Link></li>
               <li><Link href="/work-with-us" className="hover:text-black transition-colors text-base md:text-lg font-medium">Join Team SOL</Link></li>
               <li><Link href="/privacy" className="hover:text-black transition-colors text-base md:text-lg font-medium">Privacy Policy</Link></li>
             </ul>
