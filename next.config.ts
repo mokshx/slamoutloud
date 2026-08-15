@@ -14,6 +14,30 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/programs-and-impact/the-jijivisha-fellowship',
+        destination: '/jijivisha',
+        permanent: true,
+      },
+      {
+        source: '/why-we-exist',
+        destination: '/about-us',
+        permanent: true,
+      },
+      {
+        source: '/team',
+        destination: '/about-us',
+        permanent: true,
+      },
+      {
+        source: '/get-involved/volunteer',
+        destination: '/work-with-us',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
