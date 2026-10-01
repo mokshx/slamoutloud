@@ -18,7 +18,7 @@ export default function Footer() {
         {/* Bottom Section: Columns */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 md:gap-12 mt-4 md:mt-8">
           {/* Column 1: Info and Socials */}
-          <div className="flex flex-col gap-6 md:gap-8 md:col-span-1 md:pr-4">
+          <div className="flex flex-col gap-4 md:gap-5 md:col-span-1 md:pr-4">
             {/* Social Icons */}
             <div className="flex gap-3">
               <a href="https://www.instagram.com/slamoutloud/?next=%2F&hl=en" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-9 h-9 bg-black text-[#ff7b7b] rounded-full hover:bg-black/80 transition-colors">
