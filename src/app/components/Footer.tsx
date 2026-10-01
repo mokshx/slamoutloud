@@ -20,15 +20,15 @@ export default function Footer() {
           {/* Column 1: Info and Socials */}
           <div className="flex flex-col gap-6 md:gap-8 md:col-span-1 md:pr-4">
             {/* Social Icons */}
-            <div className="flex gap-4">
-              <a href="https://www.instagram.com/slamoutloud/?next=%2F&hl=en" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-12 h-12 bg-black text-[#ff7b7b] rounded-full hover:bg-black/80 transition-colors">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+            <div className="flex gap-3">
+              <a href="https://www.instagram.com/slamoutloud/?next=%2F&hl=en" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-9 h-9 bg-black text-[#ff7b7b] rounded-full hover:bg-black/80 transition-colors">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
               </a>
-              <a href="https://www.youtube.com/c/SlamOutLoud" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-12 h-12 bg-black text-[#ff7b7b] rounded-full hover:bg-black/80 transition-colors">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 2-2h15a2 2 0 0 1 2 2 24.12 24.12 0 0 1 0 10 2 2 0 0 1-2 2h-15a2 2 0 0 1-2-2Z"/><path d="m10 15 5-3-5-3v6Z"/></svg>
+              <a href="https://www.youtube.com/c/SlamOutLoud" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-9 h-9 bg-black text-[#ff7b7b] rounded-full hover:bg-black/80 transition-colors">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 2-2h15a2 2 0 0 1 2 2 24.12 24.12 0 0 1 0 10 2 2 0 0 1-2 2h-15a2 2 0 0 1-2-2Z"/><path d="m10 15 5-3-5-3v6Z"/></svg>
               </a>
-              <a href="https://www.linkedin.com/company/slam-out-loud/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-12 h-12 bg-black text-[#ff7b7b] rounded-full hover:bg-black/80 transition-colors">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+              <a href="https://www.linkedin.com/company/slam-out-loud/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-9 h-9 bg-black text-[#ff7b7b] rounded-full hover:bg-black/80 transition-colors">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
               </a>
             </div>
 
@@ -37,6 +37,17 @@ export default function Footer() {
               <p>Innov8 CP2, 44, Backary Portion, 2nd Floor, Regal Building,</p>
               <p>New Delhi – 110001.</p>
             </div>
+
+            {/* DUNS Registered Seal */}
+            <iframe
+              id="Iframe1"
+              src="https://dunsregistered.dnb.com/SealAuthentication.aspx?Cid=1"
+              width={114}
+              height={97}
+              scrolling="no"
+              className="border-0 bg-transparent"
+              title="DUNS Registered Seal"
+            />
           </div>
 
           {/* Column 2: Learn more */}
@@ -67,17 +78,6 @@ export default function Footer() {
               <li><a href="https://drive.google.com/file/d/1paY4SleWiy8FnqkrvJvkgcTIIPqOVCvP/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">80G Certificate</a></li>
               <li><a href="https://drive.google.com/file/d/1H07HJdZ-ByThZpxCcaxzbGi_ST9PyFC6/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">12A Registration</a></li>
             </ul>
-
-            {/* DUNS Registered Seal */}
-            <iframe
-              id="Iframe1"
-              src="https://dunsregistered.dnb.com/SealAuthentication.aspx?Cid=1"
-              width={114}
-              height={97}
-              scrolling="no"
-              className="border-0 bg-transparent"
-              title="DUNS Registered Seal"
-            />
           </div>
         </div>
       </div>
