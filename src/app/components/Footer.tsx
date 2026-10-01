@@ -69,6 +69,19 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+
+        {/* DUNS Registered Seal */}
+        <div className="flex justify-center">
+          <iframe
+            id="Iframe1"
+            src="https://dunsregistered.dnb.com/SealAuthentication.aspx?Cid=1"
+            width={114}
+            height={97}
+            scrolling="no"
+            className="border-0 bg-transparent"
+            title="DUNS Registered Seal"
+          />
+        </div>
       </div>
     </footer>
   );
