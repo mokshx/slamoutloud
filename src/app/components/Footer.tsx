@@ -19,12 +19,6 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 md:gap-12 mt-4 md:mt-8">
           {/* Column 1: Info and Socials */}
           <div className="flex flex-col gap-6 md:gap-8 md:col-span-1 md:pr-4">
-            <div className="text-black/70 text-base md:text-lg font-medium leading-relaxed">
-              <p>FOUNDATION OF ARTS FOR SOCIAL CHANGE IN INDIA</p>
-              <p>Innov8 CP2, 44, Backary Portion, 2nd Floor, Regal Building,</p>
-              <p>New Delhi – 110001.</p>
-            </div>
-
             {/* Social Icons */}
             <div className="flex gap-4">
               <a href="https://www.instagram.com/slamoutloud/?next=%2F&hl=en" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-12 h-12 bg-black text-[#ff7b7b] rounded-full hover:bg-black/80 transition-colors">
@@ -36,6 +30,12 @@ export default function Footer() {
               <a href="https://www.linkedin.com/company/slam-out-loud/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-12 h-12 bg-black text-[#ff7b7b] rounded-full hover:bg-black/80 transition-colors">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
               </a>
+            </div>
+
+            <div className="text-black/60 text-xs md:text-sm font-medium leading-relaxed">
+              <p>FOUNDATION OF ARTS FOR SOCIAL CHANGE IN INDIA</p>
+              <p>Innov8 CP2, 44, Backary Portion, 2nd Floor, Regal Building,</p>
+              <p>New Delhi – 110001.</p>
             </div>
           </div>
 
@@ -67,20 +67,18 @@ export default function Footer() {
               <li><a href="https://drive.google.com/file/d/1paY4SleWiy8FnqkrvJvkgcTIIPqOVCvP/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">80G Certificate</a></li>
               <li><a href="https://drive.google.com/file/d/1H07HJdZ-ByThZpxCcaxzbGi_ST9PyFC6/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors text-base md:text-lg font-medium">12A Registration</a></li>
             </ul>
-          </div>
-        </div>
 
-        {/* DUNS Registered Seal */}
-        <div className="flex justify-start">
-          <iframe
-            id="Iframe1"
-            src="https://dunsregistered.dnb.com/SealAuthentication.aspx?Cid=1"
-            width={114}
-            height={97}
-            scrolling="no"
-            className="border-0 bg-transparent"
-            title="DUNS Registered Seal"
-          />
+            {/* DUNS Registered Seal */}
+            <iframe
+              id="Iframe1"
+              src="https://dunsregistered.dnb.com/SealAuthentication.aspx?Cid=1"
+              width={114}
+              height={97}
+              scrolling="no"
+              className="border-0 bg-transparent"
+              title="DUNS Registered Seal"
+            />
+          </div>
         </div>
       </div>
     </footer>
